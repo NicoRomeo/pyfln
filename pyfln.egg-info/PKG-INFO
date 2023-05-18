@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pyfln
+Version: 0.0.1
+Summary: A Python wrapper for fastlinkingnumbers
+Home-page: https://github.com/pyfln/
+Author: Nicolas Romeo
+Author-email: nromeo@mit.edu
+Requires-Python: >=3.6
+Provides-Extra: test
+License-File: LICENSE

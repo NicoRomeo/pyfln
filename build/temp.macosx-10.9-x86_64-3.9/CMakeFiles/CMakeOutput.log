@@ -1,0 +1,509 @@
+The system is: Darwin - 21.1.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Users/nromeo/opt/anaconda3/envs/testbuild/bin/x86_64-apple-darwin13.4.0-clang 
+Build flags: -march=core2;-mtune=haswell;-mssse3;-ftree-vectorize;-fPIC;-fPIE;-fstack-protector-strong;-O2;-pipe;-isystem;/Users/nromeo/opt/anaconda3/envs/testbuild/include
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/Users/nromeo/Git/pyfln_buildtest/build/temp.macosx-10.9-x86_64-3.9/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Users/nromeo/opt/anaconda3/envs/testbuild/bin/x86_64-apple-darwin13.4.0-clang++ 
+Build flags: -march=core2;-mtune=haswell;-mssse3;-ftree-vectorize;-fPIC;-fPIE;-fstack-protector-strong;-O2;-pipe;-stdlib=libc++;-fvisibility-inlines-hidden;-std=c++14;-fmessage-length=0;-isystem;/Users/nromeo/opt/anaconda3/envs/testbuild/include
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/Users/nromeo/Git/pyfln_buildtest/build/temp.macosx-10.9-x86_64-3.9/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/nromeo/Git/pyfln_buildtest/build/temp.macosx-10.9-x86_64-3.9/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/nromeo/opt/anaconda3/envs/testbuild/bin/ninja cmTC_ae7f1 && [1/2] Building C object CMakeFiles/cmTC_ae7f1.dir/CMakeCCompilerABI.c.o
+clang version 11.1.0
+Target: x86_64-apple-darwin13.4.0
+Thread model: posix
+InstalledDir: /Users/nromeo/opt/anaconda3/envs/testbuild/bin
+clang-11: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ (in-process)
+ "/Users/nromeo/opt/anaconda3/envs/testbuild/bin/clang-11" -cc1 -triple x86_64-apple-macosx11.1.0 -Wundef-prefix=TARGET_OS_OSX -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-rounding-math -munwind-tables -target-sdk-version=11.1 -fcompatibility-qualified-id-block-type-checking -target-cpu core2 -target-feature +ssse3 -debugger-tuning=lldb -target-linker-version 530 -v -resource-dir /Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0 -dependency-file CMakeFiles/cmTC_ae7f1.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_ae7f1.dir/CMakeCCompilerABI.c.o -sys-header-deps -isystem /Users/nromeo/opt/anaconda3/envs/testbuild/include -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -O2 -fdebug-compilation-dir /Users/nromeo/Git/pyfln_buildtest/build/temp.macosx-10.9-x86_64-3.9/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -vectorize-loops -vectorize-slp -o CMakeFiles/cmTC_ae7f1.dir/CMakeCCompilerABI.c.o -x c /private/var/folders/kk/5r6w1xkn1mgbn0zzrlmc9fbw0000gn/T/pip-build-env-vo2ryxn7/overlay/lib/python3.9/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+clang -cc1 version 11.1.0 based upon LLVM 11.1.0 default target x86_64-apple-darwin21.1.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/nromeo/opt/anaconda3/envs/testbuild/include
+ /Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+[2/2] Linking C executable cmTC_ae7f1
+clang version 11.1.0
+Target: x86_64-apple-darwin13.4.0
+Thread model: posix
+InstalledDir: /Users/nromeo/opt/anaconda3/envs/testbuild/bin
+ "/Users/nromeo/opt/anaconda3/envs/testbuild/bin/x86_64-apple-darwin13.4.0-ld" -demangle -lto_library /Users/nromeo/opt/anaconda3/envs/testbuild/lib/libLTO.11.dylib -dynamic -arch x86_64 -platform_version macos 11.1.0 11.1 -pie -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_ae7f1 -L/Users/nromeo/opt/anaconda3/envs/testbuild/lib -search_paths_first -headerpad_max_install_names -pie -headerpad_max_install_names -dead_strip_dylibs -rpath /Users/nromeo/opt/anaconda3/envs/testbuild/lib -v CMakeFiles/cmTC_ae7f1.dir/CMakeCCompilerABI.c.o -lSystem /Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-530
+BUILD 16:51:25 Apr  5 2021
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/Users/nromeo/opt/anaconda3/envs/testbuild/lib
+	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Users/nromeo/opt/anaconda3/envs/testbuild/include]
+    add: [/Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/include]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+  end of search list found
+  collapse include dir [/Users/nromeo/opt/anaconda3/envs/testbuild/include] ==> [/Users/nromeo/opt/anaconda3/envs/testbuild/include]
+  collapse include dir [/Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/include] ==> [/Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/include]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+  implicit include dirs: [/Users/nromeo/opt/anaconda3/envs/testbuild/include;/Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/include;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(x86_64-apple-darwin13\.4\.0-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/nromeo/Git/pyfln_buildtest/build/temp.macosx-10.9-x86_64-3.9/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/Users/nromeo/opt/anaconda3/envs/testbuild/bin/ninja cmTC_ae7f1 && [1/2] Building C object CMakeFiles/cmTC_ae7f1.dir/CMakeCCompilerABI.c.o]
+  ignore line: [clang version 11.1.0]
+  ignore line: [Target: x86_64-apple-darwin13.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/nromeo/opt/anaconda3/envs/testbuild/bin]
+  ignore line: [clang-11: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ (in-process)]
+  ignore line: [ "/Users/nromeo/opt/anaconda3/envs/testbuild/bin/clang-11" -cc1 -triple x86_64-apple-macosx11.1.0 -Wundef-prefix=TARGET_OS_OSX -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-rounding-math -munwind-tables -target-sdk-version=11.1 -fcompatibility-qualified-id-block-type-checking -target-cpu core2 -target-feature +ssse3 -debugger-tuning=lldb -target-linker-version 530 -v -resource-dir /Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0 -dependency-file CMakeFiles/cmTC_ae7f1.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_ae7f1.dir/CMakeCCompilerABI.c.o -sys-header-deps -isystem /Users/nromeo/opt/anaconda3/envs/testbuild/include -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -O2 -fdebug-compilation-dir /Users/nromeo/Git/pyfln_buildtest/build/temp.macosx-10.9-x86_64-3.9/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -vectorize-loops -vectorize-slp -o CMakeFiles/cmTC_ae7f1.dir/CMakeCCompilerABI.c.o -x c /private/var/folders/kk/5r6w1xkn1mgbn0zzrlmc9fbw0000gn/T/pip-build-env-vo2ryxn7/overlay/lib/python3.9/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 11.1.0 based upon LLVM 11.1.0 default target x86_64-apple-darwin21.1.0]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Users/nromeo/opt/anaconda3/envs/testbuild/include]
+  ignore line: [ /Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking C executable cmTC_ae7f1]
+  ignore line: [clang version 11.1.0]
+  ignore line: [Target: x86_64-apple-darwin13.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/nromeo/opt/anaconda3/envs/testbuild/bin]
+  link line: [ "/Users/nromeo/opt/anaconda3/envs/testbuild/bin/x86_64-apple-darwin13.4.0-ld" -demangle -lto_library /Users/nromeo/opt/anaconda3/envs/testbuild/lib/libLTO.11.dylib -dynamic -arch x86_64 -platform_version macos 11.1.0 11.1 -pie -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_ae7f1 -L/Users/nromeo/opt/anaconda3/envs/testbuild/lib -search_paths_first -headerpad_max_install_names -pie -headerpad_max_install_names -dead_strip_dylibs -rpath /Users/nromeo/opt/anaconda3/envs/testbuild/lib -v CMakeFiles/cmTC_ae7f1.dir/CMakeCCompilerABI.c.o -lSystem /Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Users/nromeo/opt/anaconda3/envs/testbuild/bin/x86_64-apple-darwin13.4.0-ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Users/nromeo/opt/anaconda3/envs/testbuild/lib/libLTO.11.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [11.1.0] ==> ignore
+    arg [11.1] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_ae7f1] ==> ignore
+    arg [-L/Users/nromeo/opt/anaconda3/envs/testbuild/lib] ==> dir [/Users/nromeo/opt/anaconda3/envs/testbuild/lib]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-dead_strip_dylibs] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/Users/nromeo/opt/anaconda3/envs/testbuild/lib] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_ae7f1.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Users/nromeo/opt/anaconda3/envs/testbuild/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Users/nromeo/opt/anaconda3/envs/testbuild/lib] ==> [/Users/nromeo/opt/anaconda3/envs/testbuild/lib]
+  collapse library dir [/Users/nromeo/opt/anaconda3/envs/testbuild/lib] ==> [/Users/nromeo/opt/anaconda3/envs/testbuild/lib]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: [/Users/nromeo/opt/anaconda3/envs/testbuild/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/nromeo/Git/pyfln_buildtest/build/temp.macosx-10.9-x86_64-3.9/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/nromeo/opt/anaconda3/envs/testbuild/bin/ninja cmTC_c6038 && [1/2] Building CXX object CMakeFiles/cmTC_c6038.dir/CMakeCXXCompilerABI.cpp.o
+clang version 11.1.0
+Target: x86_64-apple-darwin13.4.0
+Thread model: posix
+InstalledDir: /Users/nromeo/opt/anaconda3/envs/testbuild/bin
+clang-11: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ (in-process)
+ "/Users/nromeo/opt/anaconda3/envs/testbuild/bin/clang-11" -cc1 -triple x86_64-apple-macosx11.1.0 -Wundef-prefix=TARGET_OS_OSX -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-rounding-math -munwind-tables -target-sdk-version=11.1 -fcompatibility-qualified-id-block-type-checking -target-cpu core2 -target-feature +ssse3 -debugger-tuning=lldb -target-linker-version 530 -v -resource-dir /Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0 -dependency-file CMakeFiles/cmTC_c6038.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_c6038.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isystem /Users/nromeo/opt/anaconda3/envs/testbuild/include -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -stdlib=libc++ -internal-isystem /Users/nromeo/opt/anaconda3/envs/testbuild/bin/../include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -O2 -std=c++14 -fdeprecated-macro -fdebug-compilation-dir /Users/nromeo/Git/pyfln_buildtest/build/temp.macosx-10.9-x86_64-3.9/CMakeFiles/CMakeTmp -ferror-limit 19 -fvisibility-inlines-hidden -stack-protector 2 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -vectorize-loops -vectorize-slp -o CMakeFiles/cmTC_c6038.dir/CMakeCXXCompilerABI.cpp.o -x c++ /private/var/folders/kk/5r6w1xkn1mgbn0zzrlmc9fbw0000gn/T/pip-build-env-vo2ryxn7/overlay/lib/python3.9/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 11.1.0 based upon LLVM 11.1.0 default target x86_64-apple-darwin21.1.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/nromeo/opt/anaconda3/envs/testbuild/include
+ /Users/nromeo/opt/anaconda3/envs/testbuild/bin/../include/c++/v1
+ /Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+[2/2] Linking CXX executable cmTC_c6038
+clang version 11.1.0
+Target: x86_64-apple-darwin13.4.0
+Thread model: posix
+InstalledDir: /Users/nromeo/opt/anaconda3/envs/testbuild/bin
+ "/Users/nromeo/opt/anaconda3/envs/testbuild/bin/x86_64-apple-darwin13.4.0-ld" -demangle -lto_library /Users/nromeo/opt/anaconda3/envs/testbuild/lib/libLTO.11.dylib -dynamic -arch x86_64 -platform_version macos 11.1.0 11.1 -pie -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_c6038 -L/Users/nromeo/opt/anaconda3/envs/testbuild/lib -search_paths_first -headerpad_max_install_names -pie -headerpad_max_install_names -dead_strip_dylibs -rpath /Users/nromeo/opt/anaconda3/envs/testbuild/lib -v CMakeFiles/cmTC_c6038.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-530
+BUILD 16:51:25 Apr  5 2021
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/Users/nromeo/opt/anaconda3/envs/testbuild/lib
+	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Users/nromeo/opt/anaconda3/envs/testbuild/include]
+    add: [/Users/nromeo/opt/anaconda3/envs/testbuild/bin/../include/c++/v1]
+    add: [/Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/include]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+  end of search list found
+  collapse include dir [/Users/nromeo/opt/anaconda3/envs/testbuild/include] ==> [/Users/nromeo/opt/anaconda3/envs/testbuild/include]
+  collapse include dir [/Users/nromeo/opt/anaconda3/envs/testbuild/bin/../include/c++/v1] ==> [/Users/nromeo/opt/anaconda3/envs/testbuild/include/c++/v1]
+  collapse include dir [/Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/include] ==> [/Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/include]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+  implicit include dirs: [/Users/nromeo/opt/anaconda3/envs/testbuild/include;/Users/nromeo/opt/anaconda3/envs/testbuild/include/c++/v1;/Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/include;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(x86_64-apple-darwin13\.4\.0-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/nromeo/Git/pyfln_buildtest/build/temp.macosx-10.9-x86_64-3.9/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/Users/nromeo/opt/anaconda3/envs/testbuild/bin/ninja cmTC_c6038 && [1/2] Building CXX object CMakeFiles/cmTC_c6038.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [clang version 11.1.0]
+  ignore line: [Target: x86_64-apple-darwin13.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/nromeo/opt/anaconda3/envs/testbuild/bin]
+  ignore line: [clang-11: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ (in-process)]
+  ignore line: [ "/Users/nromeo/opt/anaconda3/envs/testbuild/bin/clang-11" -cc1 -triple x86_64-apple-macosx11.1.0 -Wundef-prefix=TARGET_OS_OSX -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-rounding-math -munwind-tables -target-sdk-version=11.1 -fcompatibility-qualified-id-block-type-checking -target-cpu core2 -target-feature +ssse3 -debugger-tuning=lldb -target-linker-version 530 -v -resource-dir /Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0 -dependency-file CMakeFiles/cmTC_c6038.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_c6038.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isystem /Users/nromeo/opt/anaconda3/envs/testbuild/include -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -stdlib=libc++ -internal-isystem /Users/nromeo/opt/anaconda3/envs/testbuild/bin/../include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -O2 -std=c++14 -fdeprecated-macro -fdebug-compilation-dir /Users/nromeo/Git/pyfln_buildtest/build/temp.macosx-10.9-x86_64-3.9/CMakeFiles/CMakeTmp -ferror-limit 19 -fvisibility-inlines-hidden -stack-protector 2 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -vectorize-loops -vectorize-slp -o CMakeFiles/cmTC_c6038.dir/CMakeCXXCompilerABI.cpp.o -x c++ /private/var/folders/kk/5r6w1xkn1mgbn0zzrlmc9fbw0000gn/T/pip-build-env-vo2ryxn7/overlay/lib/python3.9/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 11.1.0 based upon LLVM 11.1.0 default target x86_64-apple-darwin21.1.0]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Users/nromeo/opt/anaconda3/envs/testbuild/include]
+  ignore line: [ /Users/nromeo/opt/anaconda3/envs/testbuild/bin/../include/c++/v1]
+  ignore line: [ /Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking CXX executable cmTC_c6038]
+  ignore line: [clang version 11.1.0]
+  ignore line: [Target: x86_64-apple-darwin13.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/nromeo/opt/anaconda3/envs/testbuild/bin]
+  link line: [ "/Users/nromeo/opt/anaconda3/envs/testbuild/bin/x86_64-apple-darwin13.4.0-ld" -demangle -lto_library /Users/nromeo/opt/anaconda3/envs/testbuild/lib/libLTO.11.dylib -dynamic -arch x86_64 -platform_version macos 11.1.0 11.1 -pie -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_c6038 -L/Users/nromeo/opt/anaconda3/envs/testbuild/lib -search_paths_first -headerpad_max_install_names -pie -headerpad_max_install_names -dead_strip_dylibs -rpath /Users/nromeo/opt/anaconda3/envs/testbuild/lib -v CMakeFiles/cmTC_c6038.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Users/nromeo/opt/anaconda3/envs/testbuild/bin/x86_64-apple-darwin13.4.0-ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Users/nromeo/opt/anaconda3/envs/testbuild/lib/libLTO.11.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [11.1.0] ==> ignore
+    arg [11.1] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_c6038] ==> ignore
+    arg [-L/Users/nromeo/opt/anaconda3/envs/testbuild/lib] ==> dir [/Users/nromeo/opt/anaconda3/envs/testbuild/lib]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-dead_strip_dylibs] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/Users/nromeo/opt/anaconda3/envs/testbuild/lib] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_c6038.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Users/nromeo/opt/anaconda3/envs/testbuild/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Users/nromeo/opt/anaconda3/envs/testbuild/lib] ==> [/Users/nromeo/opt/anaconda3/envs/testbuild/lib]
+  collapse library dir [/Users/nromeo/opt/anaconda3/envs/testbuild/lib] ==> [/Users/nromeo/opt/anaconda3/envs/testbuild/lib]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit objs: []
+  implicit dirs: [/Users/nromeo/opt/anaconda3/envs/testbuild/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+
+
+Detecting C OpenMP compiler ABI info compiled with the following output:
+Change Dir: /Users/nromeo/Git/pyfln_buildtest/build/temp.macosx-10.9-x86_64-3.9/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/nromeo/opt/anaconda3/envs/testbuild/bin/ninja cmTC_5aaf6 && [1/2] Building C object CMakeFiles/cmTC_5aaf6.dir/OpenMPTryFlag.c.o
+clang version 11.1.0
+Target: x86_64-apple-darwin13.4.0
+Thread model: posix
+InstalledDir: /Users/nromeo/opt/anaconda3/envs/testbuild/bin
+ (in-process)
+ "/Users/nromeo/opt/anaconda3/envs/testbuild/bin/clang-11" -cc1 -triple x86_64-apple-macosx11.1.0 -Wundef-prefix=TARGET_OS_OSX -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-rounding-math -munwind-tables -target-sdk-version=11.1 -fcompatibility-qualified-id-block-type-checking -target-cpu core2 -target-feature +ssse3 -debugger-tuning=lldb -target-linker-version 530 -v -resource-dir /Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0 -dependency-file CMakeFiles/cmTC_5aaf6.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_5aaf6.dir/OpenMPTryFlag.c.o -sys-header-deps -isystem /Users/nromeo/opt/anaconda3/envs/testbuild/include -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -O2 -fdebug-compilation-dir /Users/nromeo/Git/pyfln_buildtest/build/temp.macosx-10.9-x86_64-3.9/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fopenmp-cuda-parallel-target-regions -stack-protector 2 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -vectorize-loops -vectorize-slp -o CMakeFiles/cmTC_5aaf6.dir/OpenMPTryFlag.c.o -x c /Users/nromeo/Git/pyfln_buildtest/build/temp.macosx-10.9-x86_64-3.9/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 11.1.0 based upon LLVM 11.1.0 default target x86_64-apple-darwin21.1.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/nromeo/opt/anaconda3/envs/testbuild/include
+ /Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+[2/2] Linking C executable cmTC_5aaf6
+clang version 11.1.0
+Target: x86_64-apple-darwin13.4.0
+Thread model: posix
+InstalledDir: /Users/nromeo/opt/anaconda3/envs/testbuild/bin
+ "/Users/nromeo/opt/anaconda3/envs/testbuild/bin/x86_64-apple-darwin13.4.0-ld" -demangle -lto_library /Users/nromeo/opt/anaconda3/envs/testbuild/lib/libLTO.11.dylib -dynamic -arch x86_64 -platform_version macos 11.1.0 11.1 -pie -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_5aaf6 -L/Users/nromeo/opt/anaconda3/envs/testbuild/lib -search_paths_first -headerpad_max_install_names -pie -headerpad_max_install_names -dead_strip_dylibs -rpath /Users/nromeo/opt/anaconda3/envs/testbuild/lib CMakeFiles/cmTC_5aaf6.dir/OpenMPTryFlag.c.o -v -lomp -lSystem /Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-530
+BUILD 16:51:25 Apr  5 2021
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/Users/nromeo/opt/anaconda3/envs/testbuild/lib
+	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/
+
+
+
+Parsed C OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(x86_64-apple-darwin13\.4\.0-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/nromeo/Git/pyfln_buildtest/build/temp.macosx-10.9-x86_64-3.9/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/Users/nromeo/opt/anaconda3/envs/testbuild/bin/ninja cmTC_5aaf6 && [1/2] Building C object CMakeFiles/cmTC_5aaf6.dir/OpenMPTryFlag.c.o]
+  ignore line: [clang version 11.1.0]
+  ignore line: [Target: x86_64-apple-darwin13.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/nromeo/opt/anaconda3/envs/testbuild/bin]
+  ignore line: [ (in-process)]
+  ignore line: [ "/Users/nromeo/opt/anaconda3/envs/testbuild/bin/clang-11" -cc1 -triple x86_64-apple-macosx11.1.0 -Wundef-prefix=TARGET_OS_OSX -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-rounding-math -munwind-tables -target-sdk-version=11.1 -fcompatibility-qualified-id-block-type-checking -target-cpu core2 -target-feature +ssse3 -debugger-tuning=lldb -target-linker-version 530 -v -resource-dir /Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0 -dependency-file CMakeFiles/cmTC_5aaf6.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_5aaf6.dir/OpenMPTryFlag.c.o -sys-header-deps -isystem /Users/nromeo/opt/anaconda3/envs/testbuild/include -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -O2 -fdebug-compilation-dir /Users/nromeo/Git/pyfln_buildtest/build/temp.macosx-10.9-x86_64-3.9/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -fopenmp-cuda-parallel-target-regions -stack-protector 2 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -vectorize-loops -vectorize-slp -o CMakeFiles/cmTC_5aaf6.dir/OpenMPTryFlag.c.o -x c /Users/nromeo/Git/pyfln_buildtest/build/temp.macosx-10.9-x86_64-3.9/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
+  ignore line: [clang -cc1 version 11.1.0 based upon LLVM 11.1.0 default target x86_64-apple-darwin21.1.0]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Users/nromeo/opt/anaconda3/envs/testbuild/include]
+  ignore line: [ /Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking C executable cmTC_5aaf6]
+  ignore line: [clang version 11.1.0]
+  ignore line: [Target: x86_64-apple-darwin13.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/nromeo/opt/anaconda3/envs/testbuild/bin]
+  link line: [ "/Users/nromeo/opt/anaconda3/envs/testbuild/bin/x86_64-apple-darwin13.4.0-ld" -demangle -lto_library /Users/nromeo/opt/anaconda3/envs/testbuild/lib/libLTO.11.dylib -dynamic -arch x86_64 -platform_version macos 11.1.0 11.1 -pie -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_5aaf6 -L/Users/nromeo/opt/anaconda3/envs/testbuild/lib -search_paths_first -headerpad_max_install_names -pie -headerpad_max_install_names -dead_strip_dylibs -rpath /Users/nromeo/opt/anaconda3/envs/testbuild/lib CMakeFiles/cmTC_5aaf6.dir/OpenMPTryFlag.c.o -v -lomp -lSystem /Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Users/nromeo/opt/anaconda3/envs/testbuild/bin/x86_64-apple-darwin13.4.0-ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Users/nromeo/opt/anaconda3/envs/testbuild/lib/libLTO.11.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [11.1.0] ==> ignore
+    arg [11.1] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_5aaf6] ==> ignore
+    arg [-L/Users/nromeo/opt/anaconda3/envs/testbuild/lib] ==> dir [/Users/nromeo/opt/anaconda3/envs/testbuild/lib]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-dead_strip_dylibs] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/Users/nromeo/opt/anaconda3/envs/testbuild/lib] ==> ignore
+    arg [CMakeFiles/cmTC_5aaf6.dir/OpenMPTryFlag.c.o] ==> ignore
+    arg [-v] ==> ignore
+    arg [-lomp] ==> lib [omp]
+    arg [-lSystem] ==> lib [System]
+    arg [/Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Users/nromeo/opt/anaconda3/envs/testbuild/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Users/nromeo/opt/anaconda3/envs/testbuild/lib] ==> [/Users/nromeo/opt/anaconda3/envs/testbuild/lib]
+  collapse library dir [/Users/nromeo/opt/anaconda3/envs/testbuild/lib] ==> [/Users/nromeo/opt/anaconda3/envs/testbuild/lib]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+  implicit libs: [omp]
+  implicit objs: []
+  implicit dirs: [/Users/nromeo/opt/anaconda3/envs/testbuild/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+
+
+Detecting CXX OpenMP compiler ABI info compiled with the following output:
+Change Dir: /Users/nromeo/Git/pyfln_buildtest/build/temp.macosx-10.9-x86_64-3.9/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/nromeo/opt/anaconda3/envs/testbuild/bin/ninja cmTC_0b59b && [1/2] Building CXX object CMakeFiles/cmTC_0b59b.dir/OpenMPTryFlag.cpp.o
+clang version 11.1.0
+Target: x86_64-apple-darwin13.4.0
+Thread model: posix
+InstalledDir: /Users/nromeo/opt/anaconda3/envs/testbuild/bin
+ (in-process)
+ "/Users/nromeo/opt/anaconda3/envs/testbuild/bin/clang-11" -cc1 -triple x86_64-apple-macosx11.1.0 -Wundef-prefix=TARGET_OS_OSX -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-rounding-math -munwind-tables -target-sdk-version=11.1 -fcompatibility-qualified-id-block-type-checking -target-cpu core2 -target-feature +ssse3 -debugger-tuning=lldb -target-linker-version 530 -v -resource-dir /Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0 -dependency-file CMakeFiles/cmTC_0b59b.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_0b59b.dir/OpenMPTryFlag.cpp.o -sys-header-deps -isystem /Users/nromeo/opt/anaconda3/envs/testbuild/include -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -stdlib=libc++ -internal-isystem /Users/nromeo/opt/anaconda3/envs/testbuild/bin/../include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -O2 -std=c++14 -fdeprecated-macro -fdebug-compilation-dir /Users/nromeo/Git/pyfln_buildtest/build/temp.macosx-10.9-x86_64-3.9/CMakeFiles/CMakeTmp -ferror-limit 19 -fvisibility-inlines-hidden -fopenmp -fopenmp-cuda-parallel-target-regions -stack-protector 2 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -vectorize-loops -vectorize-slp -o CMakeFiles/cmTC_0b59b.dir/OpenMPTryFlag.cpp.o -x c++ /Users/nromeo/Git/pyfln_buildtest/build/temp.macosx-10.9-x86_64-3.9/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 11.1.0 based upon LLVM 11.1.0 default target x86_64-apple-darwin21.1.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/nromeo/opt/anaconda3/envs/testbuild/include
+ /Users/nromeo/opt/anaconda3/envs/testbuild/bin/../include/c++/v1
+ /Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+[2/2] Linking CXX executable cmTC_0b59b
+clang version 11.1.0
+Target: x86_64-apple-darwin13.4.0
+Thread model: posix
+InstalledDir: /Users/nromeo/opt/anaconda3/envs/testbuild/bin
+ "/Users/nromeo/opt/anaconda3/envs/testbuild/bin/x86_64-apple-darwin13.4.0-ld" -demangle -lto_library /Users/nromeo/opt/anaconda3/envs/testbuild/lib/libLTO.11.dylib -dynamic -arch x86_64 -platform_version macos 11.1.0 11.1 -pie -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_0b59b -L/Users/nromeo/opt/anaconda3/envs/testbuild/lib -search_paths_first -headerpad_max_install_names -pie -headerpad_max_install_names -dead_strip_dylibs -rpath /Users/nromeo/opt/anaconda3/envs/testbuild/lib CMakeFiles/cmTC_0b59b.dir/OpenMPTryFlag.cpp.o -v -lomp -lc++ -lSystem /Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-530
+BUILD 16:51:25 Apr  5 2021
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/Users/nromeo/opt/anaconda3/envs/testbuild/lib
+	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/
+
+
+
+Parsed CXX OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(x86_64-apple-darwin13\.4\.0-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/nromeo/Git/pyfln_buildtest/build/temp.macosx-10.9-x86_64-3.9/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/Users/nromeo/opt/anaconda3/envs/testbuild/bin/ninja cmTC_0b59b && [1/2] Building CXX object CMakeFiles/cmTC_0b59b.dir/OpenMPTryFlag.cpp.o]
+  ignore line: [clang version 11.1.0]
+  ignore line: [Target: x86_64-apple-darwin13.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/nromeo/opt/anaconda3/envs/testbuild/bin]
+  ignore line: [ (in-process)]
+  ignore line: [ "/Users/nromeo/opt/anaconda3/envs/testbuild/bin/clang-11" -cc1 -triple x86_64-apple-macosx11.1.0 -Wundef-prefix=TARGET_OS_OSX -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-rounding-math -munwind-tables -target-sdk-version=11.1 -fcompatibility-qualified-id-block-type-checking -target-cpu core2 -target-feature +ssse3 -debugger-tuning=lldb -target-linker-version 530 -v -resource-dir /Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0 -dependency-file CMakeFiles/cmTC_0b59b.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_0b59b.dir/OpenMPTryFlag.cpp.o -sys-header-deps -isystem /Users/nromeo/opt/anaconda3/envs/testbuild/include -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -stdlib=libc++ -internal-isystem /Users/nromeo/opt/anaconda3/envs/testbuild/bin/../include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -O2 -std=c++14 -fdeprecated-macro -fdebug-compilation-dir /Users/nromeo/Git/pyfln_buildtest/build/temp.macosx-10.9-x86_64-3.9/CMakeFiles/CMakeTmp -ferror-limit 19 -fvisibility-inlines-hidden -fopenmp -fopenmp-cuda-parallel-target-regions -stack-protector 2 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -vectorize-loops -vectorize-slp -o CMakeFiles/cmTC_0b59b.dir/OpenMPTryFlag.cpp.o -x c++ /Users/nromeo/Git/pyfln_buildtest/build/temp.macosx-10.9-x86_64-3.9/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
+  ignore line: [clang -cc1 version 11.1.0 based upon LLVM 11.1.0 default target x86_64-apple-darwin21.1.0]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Users/nromeo/opt/anaconda3/envs/testbuild/include]
+  ignore line: [ /Users/nromeo/opt/anaconda3/envs/testbuild/bin/../include/c++/v1]
+  ignore line: [ /Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking CXX executable cmTC_0b59b]
+  ignore line: [clang version 11.1.0]
+  ignore line: [Target: x86_64-apple-darwin13.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/nromeo/opt/anaconda3/envs/testbuild/bin]
+  link line: [ "/Users/nromeo/opt/anaconda3/envs/testbuild/bin/x86_64-apple-darwin13.4.0-ld" -demangle -lto_library /Users/nromeo/opt/anaconda3/envs/testbuild/lib/libLTO.11.dylib -dynamic -arch x86_64 -platform_version macos 11.1.0 11.1 -pie -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_0b59b -L/Users/nromeo/opt/anaconda3/envs/testbuild/lib -search_paths_first -headerpad_max_install_names -pie -headerpad_max_install_names -dead_strip_dylibs -rpath /Users/nromeo/opt/anaconda3/envs/testbuild/lib CMakeFiles/cmTC_0b59b.dir/OpenMPTryFlag.cpp.o -v -lomp -lc++ -lSystem /Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Users/nromeo/opt/anaconda3/envs/testbuild/bin/x86_64-apple-darwin13.4.0-ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Users/nromeo/opt/anaconda3/envs/testbuild/lib/libLTO.11.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [11.1.0] ==> ignore
+    arg [11.1] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_0b59b] ==> ignore
+    arg [-L/Users/nromeo/opt/anaconda3/envs/testbuild/lib] ==> dir [/Users/nromeo/opt/anaconda3/envs/testbuild/lib]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-dead_strip_dylibs] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/Users/nromeo/opt/anaconda3/envs/testbuild/lib] ==> ignore
+    arg [CMakeFiles/cmTC_0b59b.dir/OpenMPTryFlag.cpp.o] ==> ignore
+    arg [-v] ==> ignore
+    arg [-lomp] ==> lib [omp]
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Users/nromeo/opt/anaconda3/envs/testbuild/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Users/nromeo/opt/anaconda3/envs/testbuild/lib/clang/11.1.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Users/nromeo/opt/anaconda3/envs/testbuild/lib] ==> [/Users/nromeo/opt/anaconda3/envs/testbuild/lib]
+  collapse library dir [/Users/nromeo/opt/anaconda3/envs/testbuild/lib] ==> [/Users/nromeo/opt/anaconda3/envs/testbuild/lib]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+  implicit libs: [omp;c++]
+  implicit objs: []
+  implicit dirs: [/Users/nromeo/opt/anaconda3/envs/testbuild/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+
+
+Performing C++ SOURCE FILE Test HAS_FLTO succeeded with the following output:
+Change Dir: /Users/nromeo/Git/pyfln_buildtest/build/temp.macosx-10.9-x86_64-3.9/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/nromeo/opt/anaconda3/envs/testbuild/bin/ninja cmTC_8fc1d && [1/2] Building CXX object CMakeFiles/cmTC_8fc1d.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_8fc1d
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FLTO_THIN succeeded with the following output:
+Change Dir: /Users/nromeo/Git/pyfln_buildtest/build/temp.macosx-10.9-x86_64-3.9/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/nromeo/opt/anaconda3/envs/testbuild/bin/ninja cmTC_dfbad && [1/2] Building CXX object CMakeFiles/cmTC_dfbad.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_dfbad
+
+
+Source file was:
+int main() { return 0; }
