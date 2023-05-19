@@ -12,14 +12,19 @@ Pyfln is a pybind11-based python wrapper for Fastlinkingnumbers developed by Ant
 
 
 ### Installation and build
-Use the `--recursive` option to properly get pybind11 to fetch
+First, clone the  repo by using  
 ``
 git clone --recursive https://github.com/NicoRomeo/flntest.git
 ``
+Note the `--recursive` option to properly fetch pybind11.
 
-The package requires Eigen3 and other  dependencies listed above to build. Using a conda environment, they can be installed with
+The package requires Eigen3 and other dependencies listed above to build. Using a conda environment, they can be installed with
+
 ``
 conda install eigen
+``
+
+``
 conda install -c conda-forge c-compiler cxx-compiler gflags openmp cmake
 ``
 
