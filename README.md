@@ -1,6 +1,6 @@
 # Python wrapper around Fast Linking Numbers
 
-Pyfln is a pybind11-based python wrapper for Fastlinkingnumbers developed by Ante Qu. The build system is inspired by the solution from [this SO thread](https://stackoverflow.com/questions/47599162/pybind11-how-to-package-c-and-python-code-into-a-single-package).
+Pyfln is a pybind11-based python wrapper for [Fastlinkingnumbers developed by Ante Qu](https://github.com/antequ/fastlinkingnumbers). The build system is inspired by the solution from [this SO thread](https://stackoverflow.com/questions/47599162/pybind11-how-to-package-c-and-python-code-into-a-single-package).
 
 
 ### Required packages:
